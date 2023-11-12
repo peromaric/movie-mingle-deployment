@@ -1,0 +1,6 @@
+[submodule "movie-mingle"]
+	path = movie-mingle
+	url = https://github.com/peromaric/movie-mingle.git
+[submodule "movie-mingle-backend"]
+	path = movie-mingle-backend
+	url = https://github.com/peromaric/movie-mingle-backend.git
