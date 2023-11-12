@@ -24,6 +24,8 @@ git submodule update --init
 I highly recommend running the app via. docker. Tested on two different laptops running Windows and Ubuntu.
 
 ## Run using docker
+Make sure the following ports are free: 4200, 8080 and 5432!
+It's all run on the host network, so it's shared with anything you've running on localhost.
 Clone this repo and run it via:
 ```
 docker compose -f docker-compose.yml up -d
