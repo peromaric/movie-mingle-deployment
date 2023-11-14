@@ -1,6 +1,9 @@
 # movie-mingle-deployment
 Springboot and Angular practice
 
+**IMPORTANT** If the docker won't run on Windows because of the RUN ./gradlew build make sure to change gradlew file's line endings. 
+You can do it easily in VS Code or Notepad ++ -> change it from CRLF to LF.
+
 ## Where's what?
 Postgres is run from the docker container.
 The app is served on http://localhost:4200.
